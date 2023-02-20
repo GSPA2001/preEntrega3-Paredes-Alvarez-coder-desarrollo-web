@@ -1,0 +1,10 @@
+//mixin con parametros
+@mixin color($color-letrasf){
+    color: $color-letrasf;
+}
+
+@mixin reset{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

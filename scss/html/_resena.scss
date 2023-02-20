@@ -1,0 +1,17 @@
+/*estilo de main de resena*/
+main{
+    .resena{
+        h1{
+            margin-bottom: 40px;
+        }
+    }
+    form{
+        fieldset{
+            div{
+                input{
+                    @extend %bordes;
+                }
+            }
+        }
+    }
+}

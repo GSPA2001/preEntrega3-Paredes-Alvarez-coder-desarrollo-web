@@ -1,0 +1,152 @@
+/*estilos de main de home(index)*/
+main section p {
+  margin-bottom: 40px;
+  color: darkgoldenrod; }
+
+main .carousel-item {
+  animation-name: ani_portada;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 4s; }
+
+@keyframes ani_portada {
+  0% {
+    transform: scale(1);
+    opacity: 100%; }
+  15% {
+    transform: scale(1.2);
+    opacity: 75%; }
+  25% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2);
+    opacity: 75%; }
+  100% {
+    transform: scale(1); } }
+
+/*estilo de main de contacto*/
+main .boton h1 {
+  margin-bottom: 40px; }
+
+main h3 {
+  margin-bottom: 25px;
+  text-align: center; }
+
+main img {
+  width: 7%; }
+
+/*estilos de main de ubicacion*/
+main .ubicacion h1 {
+  margin-bottom: 40px; }
+
+main h3 {
+  margin-bottom: 30px;
+  text-align: center; }
+
+/*estilos de main de carta*/
+main .carousel-item {
+  animation-name: ani_portada;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 4s; }
+
+@keyframes ani_portada {
+  0% {
+    transform: scale(1);
+    opacity: 100%; }
+  15% {
+    transform: scale(1.2);
+    opacity: 75%; }
+  25% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2);
+    opacity: 75%; }
+  100% {
+    transform: scale(1); } }
+
+main p {
+  color: darkgoldenrod; }
+  main p .font-monospace {
+    color: #f6d831;
+    font-weight: bold; }
+
+/*estilo de main de resena*/
+main .resena h1 {
+  margin-bottom: 40px; }
+
+main form fieldset div input {
+  height: 50px;
+  padding: 25px;
+  margin: 10px;
+  text-align: left; }
+
+/* media queries celular*/
+@media screen and (max-width: 400px) {
+  main .card-body {
+    display: grid; } }
+
+/* media queries tablet*/
+@media screen and (max-width: 600px) {
+  main .card-body {
+    display: grid; } }
+
+/*media queries desk*/
+@media screen and (min-width: 1024px) {
+  /* propiedad de flex*/
+  main .contenedorDos a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+  main .card {
+    display: flex;
+    flex-direction: row flex; } }
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* estilo generico de las paginas*/
+body {
+  background-color: #f0f8ff;
+  font-family: 'Roboto', sans-serif; }
+
+/* estilo de generico de header */
+header {
+  background-color: #c3dff7;
+  text-align: center;
+  padding: 10px; }
+  header nav ul {
+    list-style: none; }
+    header nav ul li {
+      display: inline-block;
+      margin-left: 15px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold; }
+
+/* estilos de generico de main */
+main {
+  text-align: center;
+  padding: 50px; }
+
+/*estilos de los titulos*/
+h2 {
+  color: #1b1c1a;
+  font-family: cursive; }
+
+/* estilo de generico de footer*/
+footer {
+  background-color: #ff5c5cc1;
+  color: black;
+  text-align: center;
+  margin-top: 40px; }
+  footer a img {
+    width: 3%; }
+  footer div {
+    background-color: #ffffff; }
