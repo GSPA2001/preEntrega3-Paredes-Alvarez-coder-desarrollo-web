@@ -22,16 +22,14 @@
     /* propiedad de flex*/
     main{
         .contenedorDos{
-            a{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-            }
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            list-style: none;
         }
         .card{
-            display: flex;
             flex-direction: row flex;
         }
     }
